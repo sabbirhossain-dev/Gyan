@@ -1,0 +1,404 @@
+@media (min-width:320px) and (max-width:575px) {
+
+    /*    <!--   common responsive start-->*/
+    /*    <!--   common responsive start-->*/
+
+
+    .title h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .title p {
+        width: auto;
+        font-size: 13px;
+    }
+
+
+    /*    <!--  common responsive start-->*/
+    /*    <!--   common responsive start-->*/
+
+
+    /*    <!--   nav-top responsive start-->*/
+    /*    <!--   nav-top responsive start-->*/
+
+
+    #nav-top {
+        height: 70px;
+    }
+
+    #nav-top .left {
+        font-size: 14px;
+        padding: 5px 0;
+        line-height: 2;
+    }
+
+    #nav-top .left .number {
+        margin: 0 5px;
+    }
+
+    #nav-top .right {
+        width: 175px;
+        margin-left: 100px;
+        margin-top: -45px;
+    }
+
+
+
+    /*    <!--   nav-top responsive end-->*/
+    /*    <!--   nav-top responsive end-->*/
+
+
+    /*    <!--   navbar responsive start-->*/
+    /*    <!--   navbar responsive start-->*/
+
+
+    nav .navbar-brand img {
+        padding: 10px 0 25px 12px;
+    }
+
+    nav ul {
+        padding-bottom: 30px;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .sticky .navbar-brand img {
+        10px 0 20px 10px;
+    }
+
+    /*    <!--   navbar responsive end-->*/
+    /*    <!--   navbar responsive end-->*/
+
+
+
+    /*    <!--   banner-part responsive start-->*/
+    /*    <!--   banner-part responsive start-->*/
+
+    #banner-part{
+        margin-bottom: 30px;
+    }
+    #banner-part .banner .overlay {
+        padding: 70px 0;
+    }
+
+    #banner-part .banner .overlay h2 {
+        font-size: 24px;
+    }
+
+    #banner-part .banner .overlay h1 {
+        font-size: 26px;
+    }
+
+    #banner-part .banner .overlay p {
+        width: auto;
+        font-size: 12px;
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #banner-part .banner .overlay a {
+        font-size: 14px;
+        margin-right: 10px;
+        padding: 10px 15px;
+    }
+
+    #banner-part ul {
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #banner-part ul li {
+        margin-right: 7px;
+    }
+
+    #banner-part ul li button {
+        font-size: 0;
+        width: 13px;
+        height: 13px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        background: transparent;
+        outline: 0;
+    }
+
+    #banner-part ul .slick-active button {
+        background: #fbaa33;
+        border-color: #fbaa33;
+        z-index: 1;
+    }
+
+
+    /*    <!--   banner-part  responsive end-->*/
+    /*    <!--   banner-part responsive end-->*/
+
+
+    #about-part .row {
+        margin: 20px -15px 50px -15px;
+    }
+
+    #about-part .img-slider img {
+        width: 250px;
+        height: 200px;
+    }
+
+    #about-part .img-slider ul {
+        bottom: -5px;
+    }
+
+    #about-part .img-slider {
+        height: auto;
+    }
+
+    #about-part .img-slider::after {
+        width: 200px;
+    }
+
+    #about-part .img-slider::before {
+        width: 7px;
+        right: 77px;
+    }
+
+    #about-part .left::after {
+        width: 200px;
+    }
+
+    #about-part .left::before {
+        width: 7px;
+        left: 77px;
+    }
+
+    #about-part .right .text a {
+        font-size: 14px;
+        margin-right: 10px;
+        padding: 10px 15px;
+    }
+
+
+    #about-part .right .text p {
+        font-size: 13px;
+        padding-bottom: 35px;
+    }
+
+    #about-part .right .text .para {
+        padding-bottom: 20px;
+    }
+
+
+
+
+
+    #class-part .items {
+        width:auto;
+        position: static;
+        transform: translate(0, 0);
+    }
+    #class-part .items .item{
+        border-bottom: 2px solid #6a6666;
+    }
+
+
+
+    /*    <!--   banner-part  responsive end-->*/
+    /*    <!--   banner-part responsive end-->*/
+
+
+
+
+
+    /*    <!--   counter-part  responsive start-->*/
+    /*    <!--   counter-part responsive start-->*/
+    
+    
+    
+    
+ #counter-part .item h3{
+        font-size: 26px;
+    }
+
+
+    #counter-part .item p{
+        font-size: 13px;
+    }
+
+    
+    #counter-part .item::before {
+        width:5px;
+        left:66%;
+        bottom:5px;
+    }
+    
+    #counter-part .item::after {
+        width:30px;
+        left:24%;
+        bottom:5px;
+    }
+
+    /*    <!--   counter-part  responsive end-->*/
+    /*    <!--   counter-part responsive end-->*/
+
+
+    #course-part .row .details p {
+        width: auto;
+    }
+
+    #course-part ul {
+        display: flex;
+        position: absolute;
+        bottom: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #course-part ul li {
+        margin-right: 5px;
+    }
+
+    #course-part ul li button {
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        border: 1px solid #efa435;
+        border-radius: 50%;
+        background: transparent;
+        outline: 0;
+    }
+
+    #course-part .slick-active button{
+        background: #efa435;
+        border-color: #efa435;
+    }
+    
+    
+    
+    #teacher-part .teacher .text p::after {
+        width:85px;
+        left:90px;
+    }
+    #teacher-part .teacher .text p::before {
+        right:97px;
+    }
+    
+    
+    
+    
+    #event-part .calander img{
+        height: 350px;
+        margin-bottom: 20px;      
+    }
+    #event-part .items{
+        padding: 10px;
+    }
+    
+    #event-part .items .img img{
+        width:120px;
+    }
+    
+    #event-part .items .img .box{
+        width: 40px;
+        height:40px;
+        font-size: 13px;
+        bottom:90px;
+    }
+    #event-part .items .text{
+        padding-left: 15px;
+    }
+    #event-part .items .text h3{
+        font-size: 14px;
+        width:115px;
+    }
+    
+    #event-part .items .text p{
+        width: auto;
+        font-size: 13px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    
+    #event-part .items .text p .seminar{
+        margin-right: 25px;
+    }
+    
+    #event-part .items .text a{
+        font-size: 13px;
+        padding: 10px 15px;
+    }
+    
+    
+    
+    
+    
+    
+    #faq-part .right .card-header h2 button{
+        font-size: 17px;
+    }
+    
+    #faq-part .right .card .card-body{
+        width:auto;
+        font-size: 13px;
+    }
+    
+    
+    
+    #blog-part{
+        height: auto;
+        margin-top: 1500px;
+        margin-bottom: 0;
+    }
+    
+    
+    #footer-top-part .social{
+        text-align: center;
+    }
+    
+    
+    #footer-top-part .linkes h5{
+        text-align: center;
+    }
+    
+    #footer-top-part .linkes .right{
+        margin-left: 40px;
+    }
+    
+    #footer-top-part .contact h5{
+        text-align: center;
+    }
+    #footer-top-part .contact .right{
+        width:78%;
+        margin-left: 5px;
+    }
+    
+    #footer-top-part .contact .right ul li p{
+        font-size: 14px;
+    }
+    #footer-top-part .contact .right ul li .email{
+        margin-bottom: 3px;
+    }
+    
+    
+    
+    #footer-slider-part p{
+        font-size: 13px;
+    }
+    
+    
+    .btop{
+        font-size: 15px;
+        padding: 0 3px;
+        bottom:15px;
+        right:10px;
+    }
+    
+    
+    
+    
+    
+    
+    
+}
